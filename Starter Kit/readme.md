@@ -7,13 +7,13 @@ Introduction
 This set of examples covers most fundamental functions used in R. Topics covered here are:
 
 * ~~Data Types~~
-* ~~I/O functions~~
+* ~~I/O functions~~ *(io_func.R)*
 * Subsetting *(subsetting_data.R)*
 * Flow Control *(flow_control.R)*
 * Vectorization *(vectorized.R)*
 * Functions *(functions_in_r.R)*
-* Scoping rules
-* Loop functions (the "apply()" function family)
+* Scoping rules *(scoping.R)*
+* Loop functions (the *apply()* function family) *(loop_functions.R)*
 
 Installing Additional Packages
 ------------------------------
@@ -34,6 +34,7 @@ Installation note for Ubuntu users
 **For Ubuntu users:** R comes already installed on Ubuntu. Latest long-term support Ubuntu 14.04LTS containes outdated version of R. This can be a problem when installing some packages (such as 'mosaic' for example). Follow instructions on this [link](http://sysads.co.uk/2014/06/install-r-base-3-1-0-ubuntu-14-04/) (at your own risk) to update R. Here are instructions that are provided on the mentioned site:
 
 `sudo apt-get remove r-base-core`
+
 `sudo gedit /etc/apt/sources.list`
 
 Add the following entry to the *source.list* file:
@@ -43,9 +44,13 @@ Add the following entry to the *source.list* file:
 Then:
 
 `gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9`
+
 `gpg -a --export E084DAB9 | sudo apt-key add -`
+
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
+
 `sudo apt-get install r-base`
 
 Please note that Ubuntu could show you a warning or an error after you remove `r-base-core`. You can close the error message and continue the process. After successful installation the error will disappear.
