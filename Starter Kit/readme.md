@@ -6,8 +6,8 @@ Introduction
 
 This set of examples covers most fundamental functions used in R. Topics covered here are:
 
-* ~~Data Types~~
-* ~~I/O functions~~ *(io_func.R)*
+* Data Types *(fundamentals.R)*
+* I/O functions *(io_func.R)*
 * Subsetting *(subsetting_data.R)*
 * Flow Control *(flow_control.R)*
 * Vectorization *(vectorized.R)*
