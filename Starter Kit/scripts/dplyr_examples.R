@@ -27,7 +27,7 @@ class(nyAirQM)
 ozoneChange <- select(nyAirQM, c(Ozone, Month:Day))
 print(ozoneChange)
 
-# Alternatively you can ommit columns using "-" sign
+# Alternatively you can omit columns using "-" sign
 solarVsTempChange <- select(nyAirQM, -c(Ozone, Wind))
 print(solarVsTempChange)
 
