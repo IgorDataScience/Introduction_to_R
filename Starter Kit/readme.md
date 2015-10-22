@@ -14,6 +14,7 @@ This set of examples covers most fundamental functions used in R. Topics covered
 * Functions *(functions_in_r.R)*
 * Scoping rules *(scoping.R)*
 * Loop functions (the *apply()* function family) *(loop_functions.R)*
+* *dplyr* package *(dplyr_examples.R)*
 
 Installing Additional Packages
 ------------------------------
@@ -22,7 +23,7 @@ Note that if you want (or need) to use additional packages, you must install the
 
 To run RStudio as admin:
 
-* On Windows platform: right click on RStudio executable icon, and choose "Run as Administrator..." option
+* On Windows platform: right click on RStudio executable icon, and choose "Run as Administrator" option
 
 * On Linux platform: run terminal of your choice and type "sudo rstudio", if you don't have sudo on your Linux distro use corresponding function e.g. su
 
@@ -31,7 +32,7 @@ To run RStudio as admin:
 Installation note for Ubuntu users
 ----------------------------------
 
-**For Ubuntu users:** R comes already installed on Ubuntu. Latest long-term support Ubuntu 14.04LTS containes outdated version of R. This can be a problem when installing some packages (such as 'mosaic' for example). Follow instructions on this [link](http://sysads.co.uk/2014/06/install-r-base-3-1-0-ubuntu-14-04/) (at your own risk) to update R. Here are instructions that are provided on the mentioned site:
+**For Ubuntu 14.04 LTS users:** R comes already installed on Ubuntu. Latest long-term support Ubuntu 14.04LTS containes outdated version of R. This can be a problem when installing some packages (such as 'mosaic' for example). Follow instructions on this [link](http://sysads.co.uk/2014/06/install-r-base-3-1-0-ubuntu-14-04/) (at your own risk) to update R. Here are instructions that are provided on the mentioned site:
 
 `sudo apt-get remove r-base-core`
 
